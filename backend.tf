@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
     bucket = "dodod"
-    key    = "titou.iris-jenkins"
+    key    = "titou.tfiris-jenkins"
     region = "us-east-1"
-    dynamodb_table = "iris-jenkins"
+    dynamodb_table = "tfiris-jenkins"
   }
 }
